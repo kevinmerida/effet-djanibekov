@@ -1,5 +1,9 @@
 # L'effet Djanibekov
 
+La vidéo :
+
+https://www.youtube.com/watch?v=Kib01XBZeKg
+
 ## Description
 
 L'effet se produit pour tout corps rigide en impesanteur — ou chute libre — qui présente trois axes principaux d'inerties différentes, selon la [description](https://fr.wikipedia.org/wiki/Effet_Djanibekov) disponible sur Wikipédia.
