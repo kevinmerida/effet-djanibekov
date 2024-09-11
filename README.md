@@ -60,4 +60,5 @@ $$
 Le programme [**toupie.py**](Code/toupie.py) contient les fonctions permettant de réaliser les simulations numériques, puis de visualiser les résultats. Le notebook [**toupie.ipynb**](Notebook/toupie.ipynb) donne quelques exemples d'appels à ces fonctions.
 
 Voici l'animation obtenue dans le notebook
+
 https://github.com/user-attachments/assets/4b143d46-965e-40d2-8ee5-ca98e5521ed6
