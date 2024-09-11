@@ -17,14 +17,15 @@ Les résultats de cette nouvelle simulation et les programmes associés sont acc
 
 On définit le vecteur rotation $\vec{\Omega}_s$ dans le repère solidaire du corps rigide. Ce repère correspond aux axes principaux d'inertie, et les moments principaux d'inertie y sont notés $I_1$, $I_2$ et $I_3$.
 
-\begin{equation}
+$$
 \vec{\Omega}_s=\left(\begin{matrix}\Omega_1\\\Omega_2\\\Omega_3\end{matrix}\right)
-\end{equation}
+$$
 
 Par ailleurs, on définit les trois vecteurs orthonormaux orientant les axes principaux d'inertie du corps rigide, rassemblés dans les trois colonnes d'une matrice $Q$. Le mouvement s'effectue dans un référentiel inertiel et aucune force ne s'applique au solide.
 
 L'équation dynamique est donnée ci-dessous. Elle comprend 12 variables, 3 pour les vitesses angulaires et 9 pour la matrice Q qui permettra de représenter le mouvement du solide dans le référentiel inertiel.
 
+$$
 \begin{align}
 \frac{d\Omega_1}{dt}&=\Omega_2\Omega_3\frac{(I_2 - I_3)}{I_1}\\
 \frac{d\Omega_2}{dt}&=\Omega_3\Omega_1\frac{(I_3 - I_1)}{I_2}\\
@@ -35,6 +36,7 @@ L'équation dynamique est donnée ci-dessous. Elle comprend 12 variables, 3 pour
 -\Omega_2&\Omega_1&0
 \end{matrix}\right)\\
 \end{align}
+$$
 
 La résolution numérique de cette équation dynamique peut être validée en calculant le moment cinétique $\vec{\sigma}$ dans le référentiel inertiel, qui doit rester constant en théorie. Le moment cinétique $\vec{\sigma}_s$ défini sur les axes principaux d'inertie a une expression simple et donne accès à $\vec{\sigma}$ via le changement de base réalisé avec la matrice $Q$.
 
