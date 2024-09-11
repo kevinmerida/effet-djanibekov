@@ -54,3 +54,7 @@ I_3\Omega_3
 \end{matrix}
 \right)
 $$
+
+## Programmes et résultats
+
+Le programme [**toupie.py**](Code/toupie.py) contient les fonctions permettant de réaliser les simulations numériques, puis de visualiser les résultats. Le notebook [**toupie.ipynb**](Notebook/toupie.ipynb) donne quelques exemples d'appels à ces fonctions.
