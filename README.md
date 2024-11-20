@@ -1,8 +1,6 @@
 # L'effet Djanibekov
 
-La vidéo :
-
-https://www.youtube.com/watch?v=Kib01XBZeKg
+La vidéo : https://www.youtube.com/watch?v=Kib01XBZeKg
 
 ## Description
 
